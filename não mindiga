@@ -1,0 +1,36 @@
+#lista {
+        list-style-type: none;
+        margin: auto;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(36,104, 124);
+        position: sticky;
+        top: 0;,
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 16px;
+}
+
+li a:hover {
+    background-color: rgb(55, 198, 241);
+}
+
+.active {
+    background-color: rgb(55, 198, 241);
+}
+
+#container {
+    margin: auto;
+    width: 90%;
+}
