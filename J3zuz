@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <link rel="stylesheet" href="estilo_fixo.css">
+
+            <!-- Telas Responsivas -->
+            <link rel=stylesheet media="screen and (max-width: 480px)" href="estilo_fixo_480.css">
+            <link rel=stylesheet media="screen and (min-width: 481px) and (max-width:768px)" href="estilo_fixo_768.css">
+            <link rel=stylesheet media="screen and (min-width: 769px) and (max-width: 1024px)" href="estilo_fixo_1024.css">
+            <link rel=stylesheet media="screen and (min-width: 1025px)" href="estilo_fixo_1025.css">
+    </head>
+    <body>
+        <article>
+            <header id="cabecalho">
+                <h1 id="titulo">Barra de Navegação fixa</h1>
+                <p id="paragrafo_titulo">Utilize a barra de rolagem para ver o efeito do meu top.</p>
+            </header>
+        <ul id="lista">
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+
+            <section>
+                <div id="container">
+                    <h2>O poder da informação</h2>
+                    <p>
+                        O poder da informação seria inicialmente vislumbrado a mais de 5.000 anos atrás, quando uma tecnologia revolucionária foi desenvolvida - a palavra escrita. Na qual ela se compõe na transmissão e armazenamento de informação, ou sejam as palavras permitem que ideias perdurem por dentro séculos, sendo assim um dos textos mais antigos já conhecidos.
+                    </p>
+                    <p>
+                        O poder da informação seria inicialmente vislumbrado a mais de 5.000 anos atrás, quando uma tecnologia revolucionária foi desenvolvida - a palavra escrita. Na qual ela se compõe na transmissão e armazenamento de informação, ou sejam as palavras permitem que ideias perdurem por dentro séculos, sendo assim um dos textos mais antigos já conhecidos.
+                    </p>
+                    <p>
+                        O poder da informação seria inicialmente vislumbrado a mais de 5.000 anos atrás, quando uma tecnologia revolucionária foi desenvolvida - a palavra escrita. Na qual ela se compõe na transmissão e armazenamento de informação, ou sejam as palavras permitem que ideias perdurem por dentro séculos, sendo assim um dos textos mais antigos já conhecidos.
+                    </p>
+                </div>
+            </section>
+        </article>
+    </body>
+</html>
